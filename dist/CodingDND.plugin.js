@@ -175,6 +175,21 @@ module.exports = (() => {
         },
         changelog: [
             {
+                title: "Fixed buggy unmuting",
+                type: "fixed",
+                items: [
+                    "Sometimes, channels were not unmuted when no targets are running.",
+                ],
+            },
+            {
+                title: "Getting the plug-in approved by the BDAPI guys",
+                type: "fixed",
+                items: [
+                    "Fixed wrong ID in META",
+                    "Switched from `getToken` to `getCurrentUser`",
+                ],
+            },
+            {
                 title: "Auto-refreshing status cache",
                 type: "added",
                 items: [
